@@ -26,6 +26,9 @@ a:hover{
 
 h3{
     text-transform: uppercase;
+    font-size: 12px;
+    margin-bottom: 6px;
+    margin-left: -0.5px;
 }
 
 /*Cabeçalho*/
@@ -91,7 +94,7 @@ nav ul li a{
 aside{
     width: 350px;
     margin-left: 735px;
-    margin-top: -722px;
+    margin-top: -728px;
     background-color: rgb(235, 231, 221);
 }
 
@@ -107,9 +110,6 @@ aside{
 
 aside h3{
     color: rgb(134, 82, 26);
-    font-size: 12px;
-    margin-bottom: 6px;
-    margin-left: -0.5px;
 }
 
 label[for="date"]{
@@ -137,6 +137,13 @@ button{
     width: 296px;
     height: 40px;
     background-color: rgb(155, 146, 113);
+}
+
+#galeriaDeFotos{
+    margin-top: 6px;
+    padding-top: 10px;
+    padding-left: 27px;
+    padding-bottom: 10px;
 }
 
 .foto{
