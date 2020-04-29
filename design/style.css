@@ -97,41 +97,44 @@ aside{
 
 #facaUmaVisita{
     margin-top: 10px;
-    padding-top: 25px;
+    padding-top: 26px;
     padding-left: 27px;
     padding-bottom: 10px;
     width: 323px;
-    height: 115px;
+    height: 114px;
     background-color:rgb(205, 200, 177);
 }
 
 aside h3{
     color: rgb(134, 82, 26);
     font-size: 12px;
-    margin-bottom: 7px;
-    margin-left: 1.5px;
+    margin-bottom: 6px;
+    margin-left: -0.5px;
 }
 
 label[for="date"]{
-    margin-left: 12px;
+    margin-left: 10.5px;
 }
 
 #date{
     font-size: 1em;
-    height: 19px;
-    width: 80px;
+    height: 20px;
+    width: 78px;
+    text-align: left;
 }
 
 #qtdPessoas{
-    width: 30px;
+    transform: translateY(1px);
+    width: 28px;
+    height: 20px;
 }
 
 button{
     border: 0;
-    margin-top: 10px;
+    margin-top: 8px;
     font-size: 1.2em;
     color: white;
-    width: 295px;
+    width: 296px;
     height: 40px;
     background-color: rgb(155, 146, 113);
 }
