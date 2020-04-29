@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+body{
+    width: 1903px;
+    height: 1069px;
+    background: white;
+}
+
+#container{
+    display: flex;
+    flex-direction: column;
+    width: 1964px;
+    height: 1462px;
+    background: white;
+    margin-left: 411px;
+}
+
+/*Cabeçalho*/
+header{
+    padding: 30px 0;
+    height: 55px;
+    width: 1080px;
+    background: url("/img/fundo.png");
+    border: 1px solid red;
+}
+
+#logo{
+    width: 248px;
+    height: 21px;
+    text-indent: -9999px;
+    background: url("/img/logo.png") no-repeat;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    height: 30px;
+    margin-top: -30px;
+    margin-left: 373px;
+    width: 706px;
+    border: 1px solid red;
+}
+
+nav ul{
+    text-transform: uppercase;
+    list-style: none;
+}
+
+nav ul li{
+    float: left;
+    margin: 15px;
+}
+
+/*Principal*/
+#principal{
+    background: white;
+}
+
+#capa, 
+
+section{
+    border: 1px solid red;
+}
+
+article{
+    border: 1px solid red;
+}
+
+/*Lateral*/
+aside{
+    float: right;
+    border: 1px solid red;
+}
+
+/*Rodapé*/
+footer{
+    border: 1px solid red;
+}
