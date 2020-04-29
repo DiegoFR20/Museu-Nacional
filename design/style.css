@@ -21,7 +21,6 @@ a:hover{
     align-items: center;
     width: 1903px;
     height: 1462px;
-    background: url("/img/fundo.png");
 }
 
 h3{
@@ -38,7 +37,7 @@ header{
     width: 1903px;
     display: flex;
     align-items: center;
-    background: url("/img/fundo.png");
+    background: url("../img/fundo.png");
 }
 
 #logo{
@@ -47,7 +46,7 @@ header{
     width: 248px;
     height: 21px;
     text-indent: -9999px;
-    background: url("/img/logo.png") no-repeat;
+    background: url("../img/logo.png") no-repeat;
 }
 
 nav{
@@ -147,7 +146,7 @@ button{
 }
 
 .foto{
-    background: url("/img/fundo-foto.png") no-repeat;
+    background: url("../img/fundo-foto.png") no-repeat;
 }
 
 /*Rodapé*/
