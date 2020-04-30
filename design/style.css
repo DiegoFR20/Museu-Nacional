@@ -52,7 +52,7 @@ nav{
     align-items: center;
     height: 30px;
     margin-top: -70px;
-    margin-left: 227.0px;
+    margin-left: 226.8px;
     width: 661px;
 }
 
@@ -96,18 +96,32 @@ nav ul li a{
     margin-top: 10px;
     margin-right: 74px;
     margin-left: 3px;
-    border: 1px solid red;
-}
+}   
 
 .post{
-    width: 340px;
+    margin-top: 2px;
+    margin-left: 26.5px;
+    margin-bottom: 33px;
+    width: 320px;
     height: 200px;
-    padding-left: 24.5px;
-    border: 1px solid blue;
 }
 
 .post p {
-    width: 250px;;
+    width: 310px;
+}
+
+.post .content{
+    margin-top: 15px;
+    margin-bottom: 12px;
+}
+
+.post ul{
+    margin-top: 35px;
+    margin-left: 40px;
+}
+
+.post:nth-child(2), .post:nth-child(4){
+    margin-right: 15.5px;
 }
 
 .post a{
@@ -144,7 +158,7 @@ nav ul li a{
 aside{
     width: 350px;
     margin-left: 735px;
-    margin-top: -787px;
+    margin-top: -785px;
     background-color: rgb(235, 231, 221);
 }
 
@@ -237,7 +251,7 @@ button{
 /*Rodapé*/
 footer{
     width: 1000px;
-    height: 150px;
+    height: 121.5px;
     background: url("../img/fundo-rodape.png") no-repeat 197px 0;
     margin-left: 50px;
     margin-top: 20px;
