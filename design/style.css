@@ -20,7 +20,6 @@ a:hover{
     flex-direction: column;
     align-items: center;
     width: 1903px;
-    height: 1462px;
 }
 
 h3{
@@ -189,13 +188,37 @@ button{
 
 /*Rodapé*/
 footer{
-    height: 200px;
     width: 1000px;
+    height: 150px;
+    background: url("../img/fundo-rodape.png") no-repeat 197px 0;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+#navFooter{
+    width: 500px;
+    height: 20px;
+    margin-top: 32px;
+    margin-left: 262px;
+}
+
+#infoFooter{
+    margin-top: 10px;
+    margin-left: 314px;
+    height: 20px;
+    width: 500px;
 }
 
 footer ul li {
-    margin: 10px;
     float: left;
     list-style: none;
-    text-transform: lowercase;
+}
+
+#navFooter li{
+    margin-right: 12px;
+    margin-left: 11.8px;
+}
+
+#infoFooter li{
+    margin-left: 14px;
 }
