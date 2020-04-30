@@ -26,8 +26,6 @@ a:hover{
 h3{
     text-transform: uppercase;
     font-size: 12px;
-    margin-bottom: 6px;
-    margin-left: -0.5px;
 }
 
 /*Cabeçalho*/
@@ -89,11 +87,17 @@ nav ul li a{
     margin-left: 5px;
 }
 
+#postagens, #galeriaDeFotos{
+    display: grid;
+    grid-template-columns: 2;
+    grid-template-rows: 2;
+}
+
 /*Lateral*/
 aside{
     width: 350px;
     margin-left: 735px;
-    margin-top: -728px;
+    margin-top: -716px;
     background-color: rgb(235, 231, 221);
 }
 
@@ -109,10 +113,16 @@ aside{
 
 aside h3{
     color: rgb(134, 82, 26);
+    margin-bottom: 6px;
+    margin-left: -0.5px;
 }
 
 label[for="date"]{
     margin-left: 10.5px;
+}
+
+input, button{
+    text-indent: -1.1px;
 }
 
 #date{
@@ -139,14 +149,42 @@ button{
 }
 
 #galeriaDeFotos{
-    margin-top: 6px;
+    margin: 6px 30px 26px 27px;
     padding-top: 10px;
-    padding-left: 27px;
-    padding-bottom: 10px;
+    padding-bottom: 17px;
+    height: 298px;
+    width: 300px;
+}
+
+
+#fotos{
+    margin-top: 5px;
+    padding-top: 2px;
+    padding-left: 20px;
+    height: 300px;
+    width: 280px;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
 }
 
 .foto{
+    width: 143px;
+    height: 140px;
     background: url("../img/fundo-foto.png") no-repeat;
+}
+
+.foto:nth-of-type(3),.foto:nth-of-type(4){
+    margin-bottom: 10px;
+}
+
+.foto:nth-of-type(2),.foto:nth-of-type(4){
+    margin-right: -10px;
+}
+
+.foto img{
+    margin-top: 20px;
+    margin-left: 17px;
 }
 
 /*Rodapé*/
@@ -158,4 +196,6 @@ footer{
 footer ul li {
     margin: 10px;
     float: left;
+    list-style: none;
+    text-transform: lowercase;
 }
